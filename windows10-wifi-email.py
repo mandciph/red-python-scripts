@@ -68,6 +68,6 @@ with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     # Connect securely to server
     smtp.starttls()
     # Login using username and password to dummy email. Remember to set email to allow less secure apps if using Gmail
-    smtp.login("login_name", "password")
+    smtp.login("mikemuffo@gmail.com", "password")
     # Send email.
     smtp.send_message(email)
